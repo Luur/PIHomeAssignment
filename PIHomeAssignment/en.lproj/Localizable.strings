@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  PIHomeAssignment
+
+  Created by Svyat Zubyak on 13.10.2022.
+  
+*/
+
+// MARK: - Onboarding
+
+//Titles
+"onboarding_title1" = "Easiness";
+"onboarding_title2" = "Security";
+"onboarding_title3" = "Transormation";
+
+//Subtitles
+"onboarding_subtitle1" = "Supplying the convenient\ntransactions chains";
+"onboarding_subtitle2" = "Providing crypto audience with\nhigh-tech security solutions";
+"onboarding_subtitle3" = "Diversifying crypto investment\nexperience worldwide";
+
+//Buttons
+"onboarding_continue" = "Continue";

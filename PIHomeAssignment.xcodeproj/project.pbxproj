@@ -20,6 +20,8 @@
 		EE5B624428F87A43009B422D /* OnboardingPresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5B624328F87A43009B422D /* OnboardingPresentationManager.swift */; };
 		EE5B624728F87B0B009B422D /* UserDefaultsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5B624628F87B0B009B422D /* UserDefaultsHelper.swift */; };
 		EE5B624928F8A058009B422D /* OnboardingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5B624828F8A058009B422D /* OnboardingPageView.swift */; };
+		EE5B624C28F8A170009B422D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE5B624E28F8A170009B422D /* Localizable.strings */; };
+		EE5B625128F8AD3B009B422D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5B625028F8AD3B009B422D /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,9 @@
 		EE5B624328F87A43009B422D /* OnboardingPresentationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPresentationManager.swift; sourceTree = "<group>"; };
 		EE5B624628F87B0B009B422D /* UserDefaultsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsHelper.swift; sourceTree = "<group>"; };
 		EE5B624828F8A058009B422D /* OnboardingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPageView.swift; sourceTree = "<group>"; };
+		EE5B624D28F8A170009B422D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EE5B624F28F8A3ED009B422D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EE5B625028F8AD3B009B422D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,12 +96,14 @@
 		EE5B622528F86C1E009B422D /* PIHomeAssignment */ = {
 			isa = PBXGroup;
 			children = (
+				EE5B624F28F8A3ED009B422D /* Info.plist */,
 				EE5B624528F87AC5009B422D /* Utility */,
 				EE5B623F28F8766F009B422D /* Scenes */,
 				EE5B623A28F87466009B422D /* Cooridnators */,
 				EE5B623528F87377009B422D /* R */,
 				EE5B622628F86C1E009B422D /* PIHomeAssignmentApp.swift */,
 				EE5B622828F86C1E009B422D /* ContentView.swift */,
+				EE5B624E28F8A170009B422D /* Localizable.strings */,
 				EE5B622A28F86C24009B422D /* Assets.xcassets */,
 				EE5B622C28F86C24009B422D /* Preview Content */,
 			);
@@ -151,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				EE5B624628F87B0B009B422D /* UserDefaultsHelper.swift */,
+				EE5B625028F8AD3B009B422D /* Constants.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -217,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE5B622E28F86C24009B422D /* Preview Assets.xcassets in Resources */,
+				EE5B624C28F8A170009B422D /* Localizable.strings in Resources */,
 				EE5B622B28F86C24009B422D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE5B624928F8A058009B422D /* OnboardingPageView.swift in Sources */,
+				EE5B625128F8AD3B009B422D /* Constants.swift in Sources */,
 				EE5B624728F87B0B009B422D /* UserDefaultsHelper.swift in Sources */,
 				EE5B624428F87A43009B422D /* OnboardingPresentationManager.swift in Sources */,
 				EE5B623928F873FB009B422D /* RSwiftExtensions.swift in Sources */,
@@ -303,6 +313,17 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE5B624E28F8A170009B422D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE5B624D28F8A170009B422D /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		EE5B622F28F86C24009B422D /* Debug */ = {
@@ -430,6 +451,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"PIHomeAssignment/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PIHomeAssignment/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -459,6 +481,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"PIHomeAssignment/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PIHomeAssignment/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
