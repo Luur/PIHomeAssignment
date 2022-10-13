@@ -11,7 +11,7 @@ import SwiftUI
 struct PIHomeAssignmentApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainCoordinator().view()
         }
     }
 }

@@ -1,0 +1,28 @@
+PODS:
+  - R.swift (6.1.0):
+    - R.swift.Library (~> 5.3.0)
+  - R.swift.Library (5.3.0)
+  - Stinsen (2.0.7)
+  - Swinject (2.8.2)
+
+DEPENDENCIES:
+  - R.swift
+  - Stinsen
+  - Swinject
+
+SPEC REPOS:
+  trunk:
+    - R.swift
+    - R.swift.Library
+    - Stinsen
+    - Swinject
+
+SPEC CHECKSUMS:
+  R.swift: ec98ff71c4ab2f6fd01dd077e5afd15e63a4834c
+  R.swift.Library: 0fc583cb55a99e28901299cc451614cad1161962
+  Stinsen: b1c34553e21ca4f1ba53bc29cb30e71e8cce811c
+  Swinject: b4a11b31992e8668308dc594ba1cb9b3164a37ab
+
+PODFILE CHECKSUM: ece5a00349f612cec540caea10f8a7ca41100a13
+
+COCOAPODS: 1.11.3
