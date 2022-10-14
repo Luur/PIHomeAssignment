@@ -1,4 +1,5 @@
 PODS:
+  - Kingfisher (7.3.2)
   - R.swift (6.1.0):
     - R.swift.Library (~> 5.3.0)
   - R.swift.Library (5.3.0)
@@ -6,23 +7,26 @@ PODS:
   - Swinject (2.8.2)
 
 DEPENDENCIES:
+  - Kingfisher (~> 7.0)
   - R.swift
   - Stinsen
   - Swinject
 
 SPEC REPOS:
   trunk:
+    - Kingfisher
     - R.swift
     - R.swift.Library
     - Stinsen
     - Swinject
 
 SPEC CHECKSUMS:
+  Kingfisher: 0086ad83719761ba9b2cdaf6ef4d5b4878cbae23
   R.swift: ec98ff71c4ab2f6fd01dd077e5afd15e63a4834c
   R.swift.Library: 0fc583cb55a99e28901299cc451614cad1161962
   Stinsen: b1c34553e21ca4f1ba53bc29cb30e71e8cce811c
   Swinject: b4a11b31992e8668308dc594ba1cb9b3164a37ab
 
-PODFILE CHECKSUM: ece5a00349f612cec540caea10f8a7ca41100a13
+PODFILE CHECKSUM: 914f50bd65d7d249d060ef98a1d746ad93c87493
 
 COCOAPODS: 1.11.3

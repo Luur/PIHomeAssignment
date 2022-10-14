@@ -44,7 +44,6 @@ struct OnboardingPageView: View {
             .cornerRadius(30)
             .padding(.horizontal, 20)
         }
-        .padding(.bottom, 77)
-        .edgesIgnoringSafeArea(.all)
+        .padding(.bottom, 64)
     }
 }

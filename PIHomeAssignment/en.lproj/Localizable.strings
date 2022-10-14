@@ -20,3 +20,30 @@
 
 //Buttons
 "onboarding_continue" = "Continue";
+
+// MARK: - Profile
+
+"profile_welcome" = "Welcome back,";
+"profile_trending" = "Trending";
+"profile_news" = "News";
+
+//Buttons
+"profile_deposit" = "Deposit";
+"profile_withdraw" = "Withdraw";
+"profile_show_all" = "Show all";
+
+// MARK: - MarketCurrencyDetails
+
+"market_currency_details_low" = "24h Low";
+"market_currency_details_high" = "24h High";
+"market_currency_details_volume" = "Volume (%@)";
+"market_currency_details_available" = "Available: %@";
+"market_currency_details_buy" = "Buy %@";
+"market_currency_details_sell" = "sell %@";
+"market_currency_details_about" = "About %@";
+"market_currency_details_rank" = "Rank";
+"market_currency_details_launch_date" = "Launch Date";
+
+//Buttons
+"market_currency_details_show_more" = "Show more +";
+

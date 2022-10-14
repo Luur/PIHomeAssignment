@@ -9,6 +9,7 @@ target 'PIHomeAssignment' do
   pod 'Stinsen'
   pod 'Swinject'
   pod 'R.swift'
+  pod 'Kingfisher', '~> 7.0'
 end
 
 post_install do |installer|

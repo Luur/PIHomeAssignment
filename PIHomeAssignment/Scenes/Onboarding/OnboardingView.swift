@@ -34,6 +34,7 @@ struct OnboardingView: View {
         ZStack(alignment: .bottom) {
             
             R.color.midnight_express.swiftUI
+                .edgesIgnoringSafeArea(.all)
             
             TabView(selection: $currentPageIndex) {
                 ForEach(0..<pages.count, id: \.self) { index in
@@ -54,9 +55,8 @@ struct OnboardingView: View {
             .background(Gradients.pink)
             .cornerRadius(28)
             .padding(.horizontal, 40)
-            .padding(.bottom, 119)
+            .padding(.bottom, 106)
         }
-        .edgesIgnoringSafeArea(.all)
     }
 }
 
