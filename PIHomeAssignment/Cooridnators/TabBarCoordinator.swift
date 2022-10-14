@@ -17,7 +17,8 @@ final class TabBarCoordinator: TabCoordinatable {
     
     init() {
         child = TabChild(startingItems: [\TabBarCoordinator.profile, \TabBarCoordinator.market])
-        //UITabBar.configureAppearance()
+        UITabBar.appearance().isTranslucent = false
+        UITabBar.appearance().backgroundColor = R.color.valhala()
     }
     
     @ViewBuilder func makeProfile() -> some View {
@@ -29,12 +30,10 @@ final class TabBarCoordinator: TabCoordinatable {
     }
                                           
     @ViewBuilder func makeProfileTab(isActive: Bool) -> some View {
-        Image(systemName: "star")
-        Text("Profile")
+        Image(isActive ? R.image.tabbar_profile_active.name : R.image.tabbar_profile_unactive.name)
     }
     
     @ViewBuilder func makeMarketTab(isActive: Bool) -> some View {
-        Image(systemName: "xmark.circle")
-        Text("Market")
+        Image(isActive ? R.image.tabbar_market_active.name : R.image.tabbar_market_unactive.name)
     }
 }
