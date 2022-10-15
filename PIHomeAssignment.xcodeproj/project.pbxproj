@@ -63,6 +63,8 @@
 		EE6C037E28FB583D00FEC9B7 /* MarketAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6C037D28FB583D00FEC9B7 /* MarketAssembly.swift */; };
 		EE6C038128FB58D900FEC9B7 /* OnFirstAppearModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6C038028FB58D900FEC9B7 /* OnFirstAppearModifier.swift */; };
 		EE6C038528FB5A8700FEC9B7 /* EmptyDataViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6C038428FB5A8700FEC9B7 /* EmptyDataViewModifier.swift */; };
+		EE6C038728FB623900FEC9B7 /* MarketCurrencyDetailsCalculatorTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6C038628FB623900FEC9B7 /* MarketCurrencyDetailsCalculatorTextField.swift */; };
+		EE6C038928FB667F00FEC9B7 /* MarketCurrencyDetailsCalculatorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6C038828FB667F00FEC9B7 /* MarketCurrencyDetailsCalculatorButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -126,6 +128,8 @@
 		EE6C037D28FB583D00FEC9B7 /* MarketAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketAssembly.swift; sourceTree = "<group>"; };
 		EE6C038028FB58D900FEC9B7 /* OnFirstAppearModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnFirstAppearModifier.swift; sourceTree = "<group>"; };
 		EE6C038428FB5A8700FEC9B7 /* EmptyDataViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyDataViewModifier.swift; sourceTree = "<group>"; };
+		EE6C038628FB623900FEC9B7 /* MarketCurrencyDetailsCalculatorTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketCurrencyDetailsCalculatorTextField.swift; sourceTree = "<group>"; };
+		EE6C038828FB667F00FEC9B7 /* MarketCurrencyDetailsCalculatorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketCurrencyDetailsCalculatorButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +196,8 @@
 				EE4FC47528FA0F160078C60C /* MarketCurrencyDetailsAboutView.swift */,
 				EE4FC47728FA17E00078C60C /* MarketCurrencyDetailsFooterView.swift */,
 				EE4FC47928FA1B620078C60C /* MarketCurrencyDetailsCalculatorView.swift */,
+				EE6C038628FB623900FEC9B7 /* MarketCurrencyDetailsCalculatorTextField.swift */,
+				EE6C038828FB667F00FEC9B7 /* MarketCurrencyDetailsCalculatorButton.swift */,
 			);
 			path = CurrencyDetails;
 			sourceTree = "<group>";
@@ -572,11 +578,13 @@
 				EE6C036F28FACEA500FEC9B7 /* ScenesAssembly.swift in Sources */,
 				EE6C035928FAC92900FEC9B7 /* RepositoryProvider.swift in Sources */,
 				EE4FC45B28F97F3D0078C60C /* ProfileTrandingCell.swift in Sources */,
+				EE6C038728FB623900FEC9B7 /* MarketCurrencyDetailsCalculatorTextField.swift in Sources */,
 				EE5B623E28F87515009B422D /* TabBarCoordinator.swift in Sources */,
 				EE4FC45F28F987300078C60C /* Article.swift in Sources */,
 				EE6C037A28FB55CD00FEC9B7 /* CurrenciesRepositoryAssembly.swift in Sources */,
 				EE5B622728F86C1E009B422D /* PIHomeAssignmentApp.swift in Sources */,
 				EE5B623C28F87478009B422D /* MainCoordinator.swift in Sources */,
+				EE6C038928FB667F00FEC9B7 /* MarketCurrencyDetailsCalculatorButton.swift in Sources */,
 				EE5B623728F87394009B422D /* R.generated.swift in Sources */,
 				EE6C038528FB5A8700FEC9B7 /* EmptyDataViewModifier.swift in Sources */,
 				EE5B625B28F9563C009B422D /* SectionHeaderView.swift in Sources */,

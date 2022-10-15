@@ -40,6 +40,5 @@ struct MarketCurrencyDetailsAboutView: View {
                 .frame(height: 20)
             }
         }
-        .padding(.horizontal)
     }
 }

@@ -8,13 +8,23 @@
 import SwiftUI
 
 struct MarketCurrencyDetailsCalculatorView: View {
+    
+    let currency: Currency
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
-
-struct MarketCurrencyDetailsCalculatorView_Previews: PreviewProvider {
-    static var previews: some View {
-        MarketCurrencyDetailsCalculatorView()
+        
+        VStack(spacing: 32) {
+            
+            MarketCurrencyDetailsCalculatorTextField(currency: currency.shortName, available: "0 \(currency.shortName)")
+            
+            MarketCurrencyDetailsCalculatorTextField(currency: "USD", available: "0 USD")
+            
+            HStack(spacing: 10) {
+                
+                MarketCurrencyDetailsCalculatorButton(title: R.string.localizable.market_currency_details_buy(currency.shortName), subtitle: R.string.localizable.market_currency_details_buy_button_subtitle(currency.shortName))
+                
+                MarketCurrencyDetailsCalculatorButton(title: R.string.localizable.market_currency_details_sell(currency.shortName), subtitle: R.string.localizable.market_currency_details_sell_button_subtitle(currency.shortName))
+            }
+        }
     }
 }

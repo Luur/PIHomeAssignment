@@ -25,13 +25,17 @@ struct MarketCurrencyDetailsView: View {
                 ScrollView {
                     
                     VStack(spacing: 40) {
-                        Spacer().frame(height: 1)
+                        MarketCurrencyDetailsCalculatorView(currency: currency)
                         MarketCurrencyDetailsAboutView(currency: currency)
                         MarketCurrencyDetailsFooterView(details: currency.details)
                     }
-    
+                    .padding(.top, 40)
+                    .padding([.bottom, .horizontal], 20)
                 }
             }
+        }
+        .onTapGesture{
+            UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
         }
         .edgesIgnoringSafeArea(.top)
         .navigationTitle("\(currency.shortName)/USD")

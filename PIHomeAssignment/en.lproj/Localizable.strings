@@ -39,10 +39,12 @@
 "market_currency_details_volume" = "Volume (%@)";
 "market_currency_details_available" = "Available: %@";
 "market_currency_details_buy" = "Buy %@";
-"market_currency_details_sell" = "sell %@";
+"market_currency_details_sell" = "Sell %@";
 "market_currency_details_about" = "About %@";
 "market_currency_details_rank" = "Rank";
 "market_currency_details_launch_date" = "Launch Date";
+"market_currency_details_buy_button_subtitle" = "1 067 620 USD ≈ 5 %@";
+"market_currency_details_sell_button_subtitle" = "5 %@ ≈ 86 672.7 USD";
 
 //Buttons
 "market_currency_details_show_more" = "Show more +";

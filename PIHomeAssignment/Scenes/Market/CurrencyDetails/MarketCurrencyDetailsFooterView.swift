@@ -42,6 +42,5 @@ struct MarketCurrencyDetailsFooterView: View {
             .background(R.color.valhala.swiftUI)
             .cornerRadius(12)
         }
-        .padding(.horizontal, 20)
     }
 }
