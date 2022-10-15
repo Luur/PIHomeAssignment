@@ -7,6 +7,7 @@
 
 import SwiftUI
 import Stinsen
+import Swinject
 
 final class MarketCoordinator: NavigationCoordinatable {
     let stack = NavigationStack(initial: \MarketCoordinator.start)
@@ -15,7 +16,8 @@ final class MarketCoordinator: NavigationCoordinatable {
     @Route(.push) var currencyDetails = makeCurrencyDetails
     
     @ViewBuilder func makeStart() -> some View {
-        MarketView()
+        let viewModel: MarketViewModel = DependencyInjectionContainer.shared.resolve()
+        MarketView(viewModel: viewModel)
     }
     
     @ViewBuilder func makeCurrencyDetails(currency: Currency) -> some View {

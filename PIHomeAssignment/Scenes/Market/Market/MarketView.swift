@@ -8,9 +8,10 @@
 import SwiftUI
 import Stinsen
 
-struct MarketView: View {
+struct MarketView<ViewModel: MarketViewModelProtocol>: View {
     
     @EnvironmentObject private var router:  MarketCoordinator.Router
+    @ObservedObject var viewModel: ViewModel
     
     var body: some View {
         
@@ -21,7 +22,7 @@ struct MarketView: View {
             
             ScrollView {
                 LazyVStack(spacing: 42) {
-                    ForEach(Currency.all) { currency in
+                    ForEach(viewModel.currencies) { currency in
                         MarketCurrencyCell(currency: currency) {
                             router.route(to: \.currencyDetails, currency)
                         }
@@ -30,13 +31,11 @@ struct MarketView: View {
                 .padding(20)
             }
             .clipped()
+            .emptyDataView(condition: viewModel.currencies.isEmpty) {
+                Text(R.string.localizable.empty_state_currencies())
+            }
         }
+        .onFirstAppear(perform: viewModel.fetchCurrencies)
         .navigationBarHidden(true)
-    }
-}
-
-struct MarketView_Previews: PreviewProvider {
-    static var previews: some View {
-        MarketView()
     }
 }

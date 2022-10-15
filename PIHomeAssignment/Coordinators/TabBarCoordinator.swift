@@ -35,7 +35,8 @@ final class TabBarCoordinator: TabCoordinatable {
     }
     
     @ViewBuilder func makeProfile() -> some View {
-        ProfileView()
+        let viewModel: ProfileViewModel = DependencyInjectionContainer.shared.resolve()
+        ProfileView(viewModel: viewModel)
     }
     
     func makeMarket() -> NavigationViewCoordinator<MarketCoordinator> {

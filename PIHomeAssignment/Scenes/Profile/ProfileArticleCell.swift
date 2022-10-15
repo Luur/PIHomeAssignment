@@ -42,8 +42,9 @@ struct ProfileArticleCell: View {
                     .font(.system(size: 14, weight: .semibold))
                     .foregroundColor(.white)
                     .lineLimit(3)
+                    .frame(maxWidth: .infinity, alignment: .leading)
             }
         }
-        .padding(.horizontal)
+        .padding(.horizontal, 20)
     }
 }

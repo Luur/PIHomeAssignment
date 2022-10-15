@@ -44,6 +44,25 @@
 		EE5B625928F95621009B422D /* ProfileBalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5B625828F95621009B422D /* ProfileBalanceView.swift */; };
 		EE5B625B28F9563C009B422D /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5B625A28F9563C009B422D /* SectionHeaderView.swift */; };
 		EE5B625E28F9567B009B422D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5B625D28F9567B009B422D /* User.swift */; };
+		EE6C035928FAC92900FEC9B7 /* RepositoryProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6C035828FAC92900FEC9B7 /* RepositoryProvider.swift */; };
+		EE6C035B28FAC9DD00FEC9B7 /* ArticlesWebRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6C035A28FAC9DD00FEC9B7 /* ArticlesWebRepository.swift */; };
+		EE6C035D28FAC9EE00FEC9B7 /* ArticlesMemoryRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6C035C28FAC9EE00FEC9B7 /* ArticlesMemoryRepository.swift */; };
+		EE6C035F28FACA0600FEC9B7 /* ArticlesRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6C035E28FACA0600FEC9B7 /* ArticlesRepositoryProtocol.swift */; };
+		EE6C036128FACA1D00FEC9B7 /* ArticlesEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6C036028FACA1D00FEC9B7 /* ArticlesEndpoint.swift */; };
+		EE6C036428FACC4100FEC9B7 /* DependencyInjectionContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6C036328FACC4100FEC9B7 /* DependencyInjectionContainer.swift */; };
+		EE6C036728FACC8E00FEC9B7 /* RepositoriesAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6C036628FACC8E00FEC9B7 /* RepositoriesAssembly.swift */; };
+		EE6C036928FACCAA00FEC9B7 /* ArticlesRepositoryAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6C036828FACCAA00FEC9B7 /* ArticlesRepositoryAssembly.swift */; };
+		EE6C036B28FACDBB00FEC9B7 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6C036A28FACDBB00FEC9B7 /* ProfileViewModel.swift */; };
+		EE6C036F28FACEA500FEC9B7 /* ScenesAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6C036E28FACEA500FEC9B7 /* ScenesAssembly.swift */; };
+		EE6C037128FACEC200FEC9B7 /* ProfileAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6C037028FACEC200FEC9B7 /* ProfileAssembly.swift */; };
+		EE6C037428FB54F100FEC9B7 /* CurrenciesWebRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6C037328FB54F100FEC9B7 /* CurrenciesWebRepository.swift */; };
+		EE6C037628FB550400FEC9B7 /* CurrenciesMemoryRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6C037528FB550400FEC9B7 /* CurrenciesMemoryRepository.swift */; };
+		EE6C037828FB551A00FEC9B7 /* CurrenciesRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6C037728FB551A00FEC9B7 /* CurrenciesRepositoryProtocol.swift */; };
+		EE6C037A28FB55CD00FEC9B7 /* CurrenciesRepositoryAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6C037928FB55CD00FEC9B7 /* CurrenciesRepositoryAssembly.swift */; };
+		EE6C037C28FB567000FEC9B7 /* MarketViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6C037B28FB567000FEC9B7 /* MarketViewModel.swift */; };
+		EE6C037E28FB583D00FEC9B7 /* MarketAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6C037D28FB583D00FEC9B7 /* MarketAssembly.swift */; };
+		EE6C038128FB58D900FEC9B7 /* OnFirstAppearModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6C038028FB58D900FEC9B7 /* OnFirstAppearModifier.swift */; };
+		EE6C038528FB5A8700FEC9B7 /* EmptyDataViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6C038428FB5A8700FEC9B7 /* EmptyDataViewModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +107,25 @@
 		EE5B625828F95621009B422D /* ProfileBalanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileBalanceView.swift; sourceTree = "<group>"; };
 		EE5B625A28F9563C009B422D /* SectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
 		EE5B625D28F9567B009B422D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		EE6C035828FAC92900FEC9B7 /* RepositoryProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryProvider.swift; sourceTree = "<group>"; };
+		EE6C035A28FAC9DD00FEC9B7 /* ArticlesWebRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesWebRepository.swift; sourceTree = "<group>"; };
+		EE6C035C28FAC9EE00FEC9B7 /* ArticlesMemoryRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesMemoryRepository.swift; sourceTree = "<group>"; };
+		EE6C035E28FACA0600FEC9B7 /* ArticlesRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesRepositoryProtocol.swift; sourceTree = "<group>"; };
+		EE6C036028FACA1D00FEC9B7 /* ArticlesEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesEndpoint.swift; sourceTree = "<group>"; };
+		EE6C036328FACC4100FEC9B7 /* DependencyInjectionContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjectionContainer.swift; sourceTree = "<group>"; };
+		EE6C036628FACC8E00FEC9B7 /* RepositoriesAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoriesAssembly.swift; sourceTree = "<group>"; };
+		EE6C036828FACCAA00FEC9B7 /* ArticlesRepositoryAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesRepositoryAssembly.swift; sourceTree = "<group>"; };
+		EE6C036A28FACDBB00FEC9B7 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		EE6C036E28FACEA500FEC9B7 /* ScenesAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScenesAssembly.swift; sourceTree = "<group>"; };
+		EE6C037028FACEC200FEC9B7 /* ProfileAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileAssembly.swift; sourceTree = "<group>"; };
+		EE6C037328FB54F100FEC9B7 /* CurrenciesWebRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrenciesWebRepository.swift; sourceTree = "<group>"; };
+		EE6C037528FB550400FEC9B7 /* CurrenciesMemoryRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrenciesMemoryRepository.swift; sourceTree = "<group>"; };
+		EE6C037728FB551A00FEC9B7 /* CurrenciesRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrenciesRepositoryProtocol.swift; sourceTree = "<group>"; };
+		EE6C037928FB55CD00FEC9B7 /* CurrenciesRepositoryAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrenciesRepositoryAssembly.swift; sourceTree = "<group>"; };
+		EE6C037B28FB567000FEC9B7 /* MarketViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketViewModel.swift; sourceTree = "<group>"; };
+		EE6C037D28FB583D00FEC9B7 /* MarketAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketAssembly.swift; sourceTree = "<group>"; };
+		EE6C038028FB58D900FEC9B7 /* OnFirstAppearModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnFirstAppearModifier.swift; sourceTree = "<group>"; };
+		EE6C038428FB5A8700FEC9B7 /* EmptyDataViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyDataViewModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +201,7 @@
 			children = (
 				EE4FC46328F9ABA30078C60C /* MarketView.swift */,
 				EE4FC46728F9BB970078C60C /* MarketCurrencyCell.swift */,
+				EE6C037B28FB567000FEC9B7 /* MarketViewModel.swift */,
 			);
 			path = Market;
 			sourceTree = "<group>";
@@ -188,6 +227,9 @@
 		EE5B622528F86C1E009B422D /* PIHomeAssignment */ = {
 			isa = PBXGroup;
 			children = (
+				EE6C037F28FB58C500FEC9B7 /* Modifiers */,
+				EE6C036228FACC2700FEC9B7 /* DependencyInjection */,
+				EE6C035628FAC8F600FEC9B7 /* Repositories */,
 				EE4FC47228FA09D50078C60C /* SharedViews */,
 				EE5B624F28F8A3ED009B422D /* Info.plist */,
 				EE5B625C28F9566A009B422D /* Models */,
@@ -271,6 +313,7 @@
 				EE4FC45A28F97F3D0078C60C /* ProfileTrandingCell.swift */,
 				EE4FC45C28F987050078C60C /* ProfileArticlesView.swift */,
 				EE4FC46028F9A1DD0078C60C /* ProfileArticleCell.swift */,
+				EE6C036A28FACDBB00FEC9B7 /* ProfileViewModel.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -283,6 +326,76 @@
 				EE4FC45E28F987300078C60C /* Article.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		EE6C035628FAC8F600FEC9B7 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				EE6C037228FB54AD00FEC9B7 /* CurrenciesRepository */,
+				EE6C035828FAC92900FEC9B7 /* RepositoryProvider.swift */,
+				EE6C035728FAC8FF00FEC9B7 /* ArticelsRepository */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		EE6C035728FAC8FF00FEC9B7 /* ArticelsRepository */ = {
+			isa = PBXGroup;
+			children = (
+				EE6C035A28FAC9DD00FEC9B7 /* ArticlesWebRepository.swift */,
+				EE6C035C28FAC9EE00FEC9B7 /* ArticlesMemoryRepository.swift */,
+				EE6C035E28FACA0600FEC9B7 /* ArticlesRepositoryProtocol.swift */,
+				EE6C036028FACA1D00FEC9B7 /* ArticlesEndpoint.swift */,
+			);
+			path = ArticelsRepository;
+			sourceTree = "<group>";
+		};
+		EE6C036228FACC2700FEC9B7 /* DependencyInjection */ = {
+			isa = PBXGroup;
+			children = (
+				EE6C036C28FACE6B00FEC9B7 /* Scenes */,
+				EE6C036528FACC6500FEC9B7 /* Repositories */,
+				EE6C036328FACC4100FEC9B7 /* DependencyInjectionContainer.swift */,
+			);
+			path = DependencyInjection;
+			sourceTree = "<group>";
+		};
+		EE6C036528FACC6500FEC9B7 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				EE6C036628FACC8E00FEC9B7 /* RepositoriesAssembly.swift */,
+				EE6C036828FACCAA00FEC9B7 /* ArticlesRepositoryAssembly.swift */,
+				EE6C037928FB55CD00FEC9B7 /* CurrenciesRepositoryAssembly.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		EE6C036C28FACE6B00FEC9B7 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				EE6C037028FACEC200FEC9B7 /* ProfileAssembly.swift */,
+				EE6C036E28FACEA500FEC9B7 /* ScenesAssembly.swift */,
+				EE6C037D28FB583D00FEC9B7 /* MarketAssembly.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		EE6C037228FB54AD00FEC9B7 /* CurrenciesRepository */ = {
+			isa = PBXGroup;
+			children = (
+				EE6C037328FB54F100FEC9B7 /* CurrenciesWebRepository.swift */,
+				EE6C037528FB550400FEC9B7 /* CurrenciesMemoryRepository.swift */,
+				EE6C037728FB551A00FEC9B7 /* CurrenciesRepositoryProtocol.swift */,
+			);
+			path = CurrenciesRepository;
+			sourceTree = "<group>";
+		};
+		EE6C037F28FB58C500FEC9B7 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				EE6C038028FB58D900FEC9B7 /* OnFirstAppearModifier.swift */,
+				EE6C038428FB5A8700FEC9B7 /* EmptyDataViewModifier.swift */,
+			);
+			path = Modifiers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -420,39 +533,58 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE6C036428FACC4100FEC9B7 /* DependencyInjectionContainer.swift in Sources */,
 				EE5B624928F8A058009B422D /* OnboardingPageView.swift in Sources */,
 				EE4FC45928F979B40078C60C /* Currency.swift in Sources */,
 				EE4FC45728F978250078C60C /* ProfileTrandingView.swift in Sources */,
+				EE6C038128FB58D900FEC9B7 /* OnFirstAppearModifier.swift in Sources */,
 				EE5B625128F8AD3B009B422D /* Constants.swift in Sources */,
 				EE5B624728F87B0B009B422D /* UserDefaultsHelper.swift in Sources */,
+				EE6C036B28FACDBB00FEC9B7 /* ProfileViewModel.swift in Sources */,
+				EE6C035D28FAC9EE00FEC9B7 /* ArticlesMemoryRepository.swift in Sources */,
+				EE6C035B28FAC9DD00FEC9B7 /* ArticlesWebRepository.swift in Sources */,
+				EE6C037E28FB583D00FEC9B7 /* MarketAssembly.swift in Sources */,
+				EE6C037C28FB567000FEC9B7 /* MarketViewModel.swift in Sources */,
+				EE6C037128FACEC200FEC9B7 /* ProfileAssembly.swift in Sources */,
 				EE5B624428F87A43009B422D /* OnboardingPresentationManager.swift in Sources */,
 				EE4FC47628FA0F160078C60C /* MarketCurrencyDetailsAboutView.swift in Sources */,
 				EE5B625E28F9567B009B422D /* User.swift in Sources */,
+				EE6C037828FB551A00FEC9B7 /* CurrenciesRepositoryProtocol.swift in Sources */,
+				EE6C036928FACCAA00FEC9B7 /* ArticlesRepositoryAssembly.swift in Sources */,
+				EE6C037628FB550400FEC9B7 /* CurrenciesMemoryRepository.swift in Sources */,
 				EE5B625528F95554009B422D /* ProfileView.swift in Sources */,
 				EE4FC46A28F9C07C0078C60C /* MarketCurrencyDetailsView.swift in Sources */,
 				EE4FC46F28F9FA8C0078C60C /* UITabBarExtensions.swift in Sources */,
+				EE6C035F28FACA0600FEC9B7 /* ArticlesRepositoryProtocol.swift in Sources */,
 				EE5B623928F873FB009B422D /* RSwiftExtensions.swift in Sources */,
 				EE4FC46428F9ABA30078C60C /* MarketView.swift in Sources */,
 				EE4FC46628F9ABBE0078C60C /* MarketCoordinator.swift in Sources */,
 				EE4FC46828F9BB980078C60C /* MarketCurrencyCell.swift in Sources */,
 				EE4FC47428FA09F60078C60C /* RoundedCornerShape.swift in Sources */,
 				EE4FC45D28F987050078C60C /* ProfileArticlesView.swift in Sources */,
+				EE6C037428FB54F100FEC9B7 /* CurrenciesWebRepository.swift in Sources */,
+				EE6C036728FACC8E00FEC9B7 /* RepositoriesAssembly.swift in Sources */,
 				EE4FC47128F9FC020078C60C /* MarketCurrencyDetailsHeaderView.swift in Sources */,
 				EE5B625728F95610009B422D /* ProfileHeaderView.swift in Sources */,
 				EE5B622928F86C1E009B422D /* ContentView.swift in Sources */,
 				EE4FC46128F9A1DD0078C60C /* ProfileArticleCell.swift in Sources */,
 				EE4FC47A28FA1B620078C60C /* MarketCurrencyDetailsCalculatorView.swift in Sources */,
+				EE6C036F28FACEA500FEC9B7 /* ScenesAssembly.swift in Sources */,
+				EE6C035928FAC92900FEC9B7 /* RepositoryProvider.swift in Sources */,
 				EE4FC45B28F97F3D0078C60C /* ProfileTrandingCell.swift in Sources */,
 				EE5B623E28F87515009B422D /* TabBarCoordinator.swift in Sources */,
 				EE4FC45F28F987300078C60C /* Article.swift in Sources */,
+				EE6C037A28FB55CD00FEC9B7 /* CurrenciesRepositoryAssembly.swift in Sources */,
 				EE5B622728F86C1E009B422D /* PIHomeAssignmentApp.swift in Sources */,
 				EE5B623C28F87478009B422D /* MainCoordinator.swift in Sources */,
 				EE5B623728F87394009B422D /* R.generated.swift in Sources */,
+				EE6C038528FB5A8700FEC9B7 /* EmptyDataViewModifier.swift in Sources */,
 				EE5B625B28F9563C009B422D /* SectionHeaderView.swift in Sources */,
 				EE4FC46D28F9F8390078C60C /* UINavigationBarExtensions.swift in Sources */,
 				EE5B624228F87688009B422D /* OnboardingView.swift in Sources */,
 				EE5B625928F95621009B422D /* ProfileBalanceView.swift in Sources */,
 				EE4FC47828FA17E00078C60C /* MarketCurrencyDetailsFooterView.swift in Sources */,
+				EE6C036128FACA1D00FEC9B7 /* ArticlesEndpoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,6 +9,11 @@ import SwiftUI
 
 @main
 struct PIHomeAssignmentApp: App {
+    
+    init() {
+        _ = DependencyInjectionContainer.shared
+    }
+    
     var body: some Scene {
         WindowGroup {
             MainCoordinator().view()

@@ -47,3 +47,7 @@
 //Buttons
 "market_currency_details_show_more" = "Show more +";
 
+// MARK: - EmptyState
+
+"empty_state_currencies" = "Currentrly there are no currencies";
+

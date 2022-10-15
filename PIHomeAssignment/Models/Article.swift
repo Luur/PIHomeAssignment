@@ -7,7 +7,11 @@
 
 import SwiftUI
 
-struct Article: Identifiable {
+struct Beer: Decodable {
+    let id: Int
+}
+
+struct Article: Identifiable, Decodable {
     
     let id: String
     let sourceName: String
