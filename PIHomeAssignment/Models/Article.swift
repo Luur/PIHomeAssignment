@@ -7,10 +7,6 @@
 
 import SwiftUI
 
-struct Beer: Decodable {
-    let id: Int
-}
-
 struct Article: Identifiable, Decodable {
     
     let id: String
@@ -26,22 +22,7 @@ struct Article: Identifiable, Decodable {
     var timeAgo: String? {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ssZ"
-        let date = dateFormatter.date(from: publishedDate)
-        return date?.timeAgo()
+        guard let date = dateFormatter.date(from: publishedDate) else { return nil }
+        return R.string.localizable.profile_article_time_ago(date.timeAgo())
     }
 }
-
-extension Date {
-    func timeAgo() -> String {
-        var calendar = Calendar.current
-        calendar.locale = Locale(identifier: "en_US")
-        let formatter = DateComponentsFormatter()
-        formatter.calendar = calendar
-        formatter.unitsStyle = .full
-        formatter.allowedUnits = [.year, .month, .day, .hour, .minute, .second]
-        formatter.zeroFormattingBehavior = .dropAll
-        formatter.maximumUnitCount = 1
-        return formatter.string(from: self, to: Date()) ?? ""
-    }
-}
-

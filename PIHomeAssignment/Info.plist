@@ -2,6 +2,17 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>environment_settings</key>
+	<dict>
+		<key>rapid_base_url</key>
+		<string>https://ms-finance.p.rapidapi.com/</string>
+		<key>rapid_api_key</key>
+		<string>f75b9db089msh34b47fe849f3c7dp10189ajsn64c2b151b1af</string>
+		<key>rapid_api_host</key>
+		<string>ms-finance.p.rapidapi.com</string>
+		<key>rapid_performance_id</key>
+		<string>0P0000OQN8</string>
+	</dict>
 	<key>UIUserInterfaceStyle</key>
 	<string>Dark</string>
 </dict>

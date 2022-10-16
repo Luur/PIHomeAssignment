@@ -26,6 +26,7 @@
 "profile_welcome" = "Welcome back,";
 "profile_trending" = "Trending";
 "profile_news" = "News";
+"profile_article_time_ago" = "%@ ago";
 
 //Buttons
 "profile_deposit" = "Deposit";

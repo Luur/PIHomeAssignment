@@ -28,9 +28,7 @@ class MarketViewModel: MarketViewModelProtocol {
         let repository = repositoryProvider.repository(for: .sandbox)
         repository.fetchCurrencies()
             .receive(on: DispatchQueue.main)
-            .sink { _ in } receiveValue: { [weak self] currencies in
-                self?.currencies = currencies
-            }
+            .assign(to: \.currencies, on: self)
             .store(in: &subscriptions)
     }
 }

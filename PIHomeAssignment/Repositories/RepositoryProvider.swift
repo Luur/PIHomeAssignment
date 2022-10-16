@@ -7,11 +7,6 @@
 
 import Foundation
 
-enum Environment {
-    case sandbox
-    case development
-}
-
 protocol RepositoryProviderProtocol {
     associatedtype RepositoryProtocol
     func repository(for environment: Environment) -> RepositoryProtocol

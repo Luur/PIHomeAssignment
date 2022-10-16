@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5A58B44B5F75DD39C2A118DA /* Pods_PIHomeAssignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47C542C40A99AFDA50F7EF01 /* Pods_PIHomeAssignment.framework */; };
+		EE2B2C0928FC141F0024BC54 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2B2C0828FC141F0024BC54 /* Environment.swift */; };
+		EE2B2C0B28FC18900024BC54 /* EndpointProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2B2C0A28FC18900024BC54 /* EndpointProtocol.swift */; };
 		EE4FC45728F978250078C60C /* ProfileTrandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4FC45628F978250078C60C /* ProfileTrandingView.swift */; };
 		EE4FC45928F979B40078C60C /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4FC45828F979B40078C60C /* Currency.swift */; };
 		EE4FC45B28F97F3D0078C60C /* ProfileTrandingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4FC45A28F97F3D0078C60C /* ProfileTrandingCell.swift */; };
@@ -65,12 +67,15 @@
 		EE6C038528FB5A8700FEC9B7 /* EmptyDataViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6C038428FB5A8700FEC9B7 /* EmptyDataViewModifier.swift */; };
 		EE6C038728FB623900FEC9B7 /* MarketCurrencyDetailsCalculatorTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6C038628FB623900FEC9B7 /* MarketCurrencyDetailsCalculatorTextField.swift */; };
 		EE6C038928FB667F00FEC9B7 /* MarketCurrencyDetailsCalculatorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6C038828FB667F00FEC9B7 /* MarketCurrencyDetailsCalculatorButton.swift */; };
+		EE6C038B28FC10A200FEC9B7 /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6C038A28FC10A200FEC9B7 /* DateExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		47840A4656F5063FEB1F2BCF /* Pods-PIHomeAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PIHomeAssignment.debug.xcconfig"; path = "Target Support Files/Pods-PIHomeAssignment/Pods-PIHomeAssignment.debug.xcconfig"; sourceTree = "<group>"; };
 		47C542C40A99AFDA50F7EF01 /* Pods_PIHomeAssignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PIHomeAssignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		913B1806666EED582ADCCB02 /* Pods-PIHomeAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PIHomeAssignment.release.xcconfig"; path = "Target Support Files/Pods-PIHomeAssignment/Pods-PIHomeAssignment.release.xcconfig"; sourceTree = "<group>"; };
+		EE2B2C0828FC141F0024BC54 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		EE2B2C0A28FC18900024BC54 /* EndpointProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointProtocol.swift; sourceTree = "<group>"; };
 		EE4FC45628F978250078C60C /* ProfileTrandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTrandingView.swift; sourceTree = "<group>"; };
 		EE4FC45828F979B40078C60C /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
 		EE4FC45A28F97F3D0078C60C /* ProfileTrandingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTrandingCell.swift; sourceTree = "<group>"; };
@@ -130,6 +135,7 @@
 		EE6C038428FB5A8700FEC9B7 /* EmptyDataViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyDataViewModifier.swift; sourceTree = "<group>"; };
 		EE6C038628FB623900FEC9B7 /* MarketCurrencyDetailsCalculatorTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketCurrencyDetailsCalculatorTextField.swift; sourceTree = "<group>"; };
 		EE6C038828FB667F00FEC9B7 /* MarketCurrencyDetailsCalculatorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketCurrencyDetailsCalculatorButton.swift; sourceTree = "<group>"; };
+		EE6C038A28FC10A200FEC9B7 /* DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +181,7 @@
 			children = (
 				EE4FC46C28F9F8390078C60C /* UINavigationBarExtensions.swift */,
 				EE4FC46E28F9FA8C0078C60C /* UITabBarExtensions.swift */,
+				EE6C038A28FC10A200FEC9B7 /* DateExtensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -233,11 +240,11 @@
 		EE5B622528F86C1E009B422D /* PIHomeAssignment */ = {
 			isa = PBXGroup;
 			children = (
+				EE6C038C28FC137E00FEC9B7 /* Environment */,
 				EE6C037F28FB58C500FEC9B7 /* Modifiers */,
 				EE6C036228FACC2700FEC9B7 /* DependencyInjection */,
 				EE6C035628FAC8F600FEC9B7 /* Repositories */,
 				EE4FC47228FA09D50078C60C /* SharedViews */,
-				EE5B624F28F8A3ED009B422D /* Info.plist */,
 				EE5B625C28F9566A009B422D /* Models */,
 				EE5B624528F87AC5009B422D /* Utility */,
 				EE5B623F28F8766F009B422D /* Scenes */,
@@ -245,6 +252,7 @@
 				EE5B623528F87377009B422D /* R */,
 				EE5B622628F86C1E009B422D /* PIHomeAssignmentApp.swift */,
 				EE5B622828F86C1E009B422D /* ContentView.swift */,
+				EE5B624F28F8A3ED009B422D /* Info.plist */,
 				EE5B624E28F8A170009B422D /* Localizable.strings */,
 				EE5B622A28F86C24009B422D /* Assets.xcassets */,
 				EE5B622C28F86C24009B422D /* Preview Content */,
@@ -337,8 +345,8 @@
 		EE6C035628FAC8F600FEC9B7 /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
-				EE6C037228FB54AD00FEC9B7 /* CurrenciesRepository */,
 				EE6C035828FAC92900FEC9B7 /* RepositoryProvider.swift */,
+				EE6C037228FB54AD00FEC9B7 /* CurrenciesRepository */,
 				EE6C035728FAC8FF00FEC9B7 /* ArticelsRepository */,
 			);
 			path = Repositories;
@@ -402,6 +410,15 @@
 				EE6C038428FB5A8700FEC9B7 /* EmptyDataViewModifier.swift */,
 			);
 			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		EE6C038C28FC137E00FEC9B7 /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				EE2B2C0828FC141F0024BC54 /* Environment.swift */,
+				EE2B2C0A28FC18900024BC54 /* EndpointProtocol.swift */,
+			);
+			path = Environment;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -539,6 +556,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE2B2C0B28FC18900024BC54 /* EndpointProtocol.swift in Sources */,
 				EE6C036428FACC4100FEC9B7 /* DependencyInjectionContainer.swift in Sources */,
 				EE5B624928F8A058009B422D /* OnboardingPageView.swift in Sources */,
 				EE4FC45928F979B40078C60C /* Currency.swift in Sources */,
@@ -555,6 +573,8 @@
 				EE5B624428F87A43009B422D /* OnboardingPresentationManager.swift in Sources */,
 				EE4FC47628FA0F160078C60C /* MarketCurrencyDetailsAboutView.swift in Sources */,
 				EE5B625E28F9567B009B422D /* User.swift in Sources */,
+				EE6C038B28FC10A200FEC9B7 /* DateExtensions.swift in Sources */,
+				EE2B2C0928FC141F0024BC54 /* Environment.swift in Sources */,
 				EE6C037828FB551A00FEC9B7 /* CurrenciesRepositoryProtocol.swift in Sources */,
 				EE6C036928FACCAA00FEC9B7 /* ArticlesRepositoryAssembly.swift in Sources */,
 				EE6C037628FB550400FEC9B7 /* CurrenciesMemoryRepository.swift in Sources */,

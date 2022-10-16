@@ -22,7 +22,6 @@ struct User {
         formatter.locale = Locale(identifier: "en_US")
         formatter.numberStyle = .currency
         formatter.decimalSeparator = "."
-        //numberFormatter.numberStyle = .decimal
         formatter.maximumFractionDigits = 2
         return formatter.string(from: NSNumber(value: balance))!
     }
